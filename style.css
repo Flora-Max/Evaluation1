@@ -1,0 +1,52 @@
+body, html {
+	padding: 0;
+	margin: 0;
+}
+
+a a:hover {
+	text-decoration: none;
+}
+
+.container-fluid{
+	padding:0;
+}
+
+/*header*/
+.header{
+	background-color: #615F4D;
+	height:70px;
+	line-height:70px;
+
+}
+
+.logo{
+	float: left;
+}
+
+.menu{
+	float:right;
+
+}
+
+.menu a {
+	color: white;
+	margin-right: 20px;
+}
+
+.menu a:hover {
+	color: #ADA555;
+}
+
+/*banniere*/
+
+
+
+/*about*/
+
+
+
+/*portfolio*/
+
+
+
+/*contact*/
