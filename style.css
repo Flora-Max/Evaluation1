@@ -11,6 +11,14 @@ a a:hover {
 	padding:0;
 }
 
+/*.separator{
+	height:3px;
+	width:5%;
+	border:none;
+	box-shadow:none;
+	background-color: #615F4D;
+} */
+
 /*header*/
 .header{
 	background-color: #615F4D;
@@ -21,6 +29,14 @@ a a:hover {
 
 .logo{
 	float: left;
+	color:white;
+	letter-spacing:2px;
+	text-transform:uppercase;
+	font-weight: bold;
+}
+
+.logo:hover{
+	color:#ADA555;
 }
 
 .menu{
@@ -38,15 +54,75 @@ a a:hover {
 }
 
 /*banniere*/
+.banniere{
+	width:100%;
+	max-width:100%;
+}
 
+.ban{
+	width:100%;
+	max-width:100%;
+	position:relative;
+}
 
+.ban img {
+	width:100%;
+	max-width:100%;
+}
+
+.inner-banner{
+	position:absolute;
+	top:50%;
+	width:100%;
+	text-align:center;
+}
+
+.inner-banner h1 {
+	color:white;
+	text-shadow: 1px 1px 20px white;
+}
+
+.inner-banner button{
+	margin-top: 50px;
+}
 
 /*about*/
+}
+#apropos{
+	text-align: center;
+	padding-top: 10%;
+}
+
+.card{
+	margin-bottom:10px;
+	margin-top:10%;
+	text-align:center;
+	box-shadow: 1px 1px 20px black;
+	
+}
+
 
 
 
 /*portfolio*/
+.portfolio{
+	background-color: #E6E2BC;
+	padding-top:50px;
+	margin-top: 50px;
+	height:500px;
+}
 
+#portfolio{
+	text-align:center;
+}
 
+.portfolio .item-folio{
+	height:280px;
+}
+
+.item-folio .img{
+	width:100%;
+	max-width:100%;
+}
 
 /*contact*/
