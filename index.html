@@ -19,27 +19,30 @@
 	<!--header-->
 	<header class="container-fluid header">
 		<div class="container">
-			<a href="#" class="logo">Cli-Mates</a>
+			<a href="index.html" class="logo">Cli-Mates</a>
 			<nav class="menu">
-				<a href="#">Acceuil</a>
-				<a href="apropos">A propos</a>
-				<a href="portfolio">Portfolio</a>
-				<a href="#">Contact</a>
+				<a href="#">Evenements</a>
+				<a href="#apropos">A propos</a>
+				<a href="#portfolio">Portfolio</a>
+				<a href="#contact">Contact</a>
 			</nav>
 		</div>
 		
 			<!--<nav class="navbar navbar-expand-lg navbar-dark">
-				<a href="#" class="navbar-brand">Acceuil</a>
+				<a href="index.html" class="navbar-brand">Acceuil</a>
 					
 					<ul class="navbar-nav">
 						<li class="nav-item">
-							<a href="about" class="nav-link">A propos</a>
+							<a href="Evenements" class="nav-link">Evenements</a>
 						</li>
 						<li class="nav-item">
-							<a href="#" class="nav-link">Evenements</a>
+							<a href="apropos" class="nav-link">A propos</a>
 						</li>
 						<li class="nav-item">
-							<a href="#" class="nav-link">Contact</a>
+							<a href="portfolio" class="nav-link">Portfolio</a>
+						</li>
+						<li class="nav-item">
+							<a href="contact" class="nav-link">Contact</a>
 						</li>
 					</ul>
 				</nav>-->
@@ -65,20 +68,17 @@
 	<!--a propos-->
 	<section class="container-fluid about">
 		<div class="container">
-			<div class="row">
-				<h2 id="apropos">A propos</h2>
-			</div>
-			<!--<div class="row"
-				<hr class="separator">
-			</div> -->
+			<h2 id="apropos">A propos</h2>
+			<hr class="separator">
 			<div class="row">
 				<div class="card col-md-4 col-lg-4 col-sm-12 col-xs-12">
 					<img src="Images/photo5.jpg" alt="card image 1" class="card-img-top">
 					<div class="card-body">
 						<h3 class="card-title">Qui sommes nous ?</h3>
 						<p class="card-text"> Nous sommes un collectif de jeunes sérieux et créatifs, partageant une vision collective pour une transition vers une société à faibles émissions de carbone en informant, en responsabilisant et en engageant les jeunes dans la recherche collaborative, le plaidoyer international et la mobilisation populaire.
-						CliMates rassemble des jeunes du monde entier qui souhaitent faire face aux défis climatiques. 
+						CliMates rassemble des jeunes du monde entier qui souhaitent faire face aux défis climatiques.
 						</p>
+						<button type="button" class="btn btn-custom">En savoir plus</button>
 					</div>
 				</div>
 
@@ -86,7 +86,8 @@
 					<img class="card-img-top" alt="card image 2" src="Images/photo2.jpeg">
 					<div class="card-body">
 						<h3 class="card-title">Qu'est ce que CliMates ?</h3>
-						<p class="card-text"> CliMates est un laboratoire d'idées et d'actions international, réunissant des volontaires, étudiants et jeunes professionnels autour des enjeux climatiques. L’objectif de notre ONG (Organisation Non Gouvernementale) est de relever le défi du changement climatique.</p>
+						<p class="card-text"> CliMates est un laboratoire d'idées et d'actions international, réunissant des volontaires, étudiants et jeunes professionnels autour des enjeux climatiques. L’objectif de notre ONG (Organisation Non Gouvernementale) est de relever le défi du changement climatique en développant et encourageant la création d'idées et d'outils innovants et en formant les jeunes à devenir des acteurs du changement.</p>
+						<button type="button" class="btn btn-custom">En savoir plus</button>
 					</div>
 				</div>
 
@@ -98,12 +99,11 @@
 						Entrez dans une équipe pour responsabiliser les jeunes sur les enjeux environnementaux.
 						Devenez coach, entraîneur, organisateur d'événement ou conférencier !
 ​						Rejoignez des équipes internationales et travaillez avec des établissements d'enseignement, représentez les pays ou les 						intérêts d'acteurs lors de simulations climatiques, tout en rencontrant des personnes d'horizons différents.</p>
+						<button type="button" class="btn btn-custom">En savoir plus</button>
 					</div>
 				</div>
 			</div>
 		</div>
-
-		
 	</section>
 	<!--end a propos-->
 
@@ -112,6 +112,7 @@
 	<section class="container-fluid portfolio">
 		<div class="container">
 			<h2 id="portfolio">Portfolio</h2>
+			<hr class="separator">
 			<h3>Nos actions</h3>
 		<dl>
 			<dt>Pôle Recherche</dt>
@@ -120,49 +121,7 @@
 			<dd>Les orientations des politiques publiques françaises, européennes et internationales actuelles ont une influence directe sur l’atténuation de nos émissions de gaz à effet de serre et sur l’adaptation de nos sociétés au dérèglement climatique.</dd>
 			<dt>Pôle mobilisation</dt>
 			<dd>Les jeunes sont en première ligne face aux conséquences de l’augmentation des émissions de carbone et de l’intensification des changements climatiques qui en découlent. Au sein de CliMates, le Pôle Mobilisation / Empowerment a pour objectif de donner à la génération climat les capacités et les outils nécessaires afin de s’approprier les enjeux liés aux dérèglements climatiques pour devenir des acteurs du changement. </dd>
-		</dl>
-			<!--<article class="col-md-3 col-lg-3 col-xs-12 col-sm-12 item-folio">
-				<h3>Plaidoyer</h3>
-				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mic" viewBox="0 0 16 16">
-  				<path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5z"/>
- 				 <path d="M10 8a2 2 0 1 1-4 0V3a2 2 0 1 1 4 0v5zM8 0a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V3a3 3 0 0 0-3-3z"/>
-				</svg>
-				<p>Hey toi ! Diplomate en herbe ?
-				Passionné par les négociations sur le climat ?
-				Envie de faire entendre ta voix pour faire face au défi climatique ?
- 
-				Rejoignez l’équipe de plaidoyer et défendez la voix de la jeunesse, à votre échelle, dans votre pays ou même au sein d’organisations internationales.</p>
-				
-			</article>
-
-			<article class="col-md-3 col-lg-3 col-xs-12 col-sm-12 item-folio">
-				
-			</article>
-
-			<article class="col-md-3 col-lg-3 col-xs-12 col-sm-12 item-folio" >
-				
-			</article>
-
-			<article class="col-md-3 col-lg-3 col-xs-12 col-sm-12 item-folio" >
-				
-			</article>
-
-			<article class="col-md-3 col-lg-3 col-xs-12 col-sm-12 item-folio" >
-				
-			</article>
-
-			<article class="col-md-3 col-lg-3 col-xs-12 col-sm-12 item-folio" >
-				
-			</article>
-
-			<article class="col-md-3 col-lg-3 col-xs-12 col-sm-12 item-folio" >
-
-			</article>
-
-			<article class="col-md-3 col-lg-3 col-xs-12 col-sm-12 item-folio" >
-				
-			</article>-->
-		
+		</dl>				
 	</section>
 	<!--end portfolio-->
 
@@ -170,32 +129,34 @@
 	<!--footer / contact-->
 	<footer class="container-fluid footer">
 		<div class="container">
-		<div class="row">
-			<form role="form">
-       		 <br style="clear:both">
-             <h3 style="margin-bottom: 25px; text-align: center;">Contact Form</h3>
-    			<div class="form-group">
-					<input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
-				</div>
-				<div class="form-group">
-					<input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
-				</div>
-				<div class="form-group">
-					<input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required>
-				</div>
-				<div class="form-group">
-					<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
-				</div>
-                 <div class="form-group">
-                    <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>
+			<div class="row">
+				<h2 id="contact">Contactez-nous</h2>
+			</div>
+			<div class="row">
+				<form role="form">
+       			 <br style="clear:both">
+    				<div class="form-group">
+						<input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required>
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+					</div>
+                	<div class="form-group">
+                  	 	<textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>
                         <span class="help-block"><p id="characterLeft" class="help-block ">You have reached the limit</p></span>                    
-                 </div>
+                	 </div>
             
-       			 <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Submit Form</button>
-       		 </form>
-       	</div>
-       </div>
-		
+       				 <button type="button" id="submit" name="submit" class="btn btn-success pull-right">Submit Form</button>
+				 </form>
+       		</div>
+       		<p>&copy 2021 Tout droit réservé</p>
+        </div>
 	</footer>
 
 	<!--end footer/contact-->
@@ -204,5 +165,6 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>	
+
 </body>
 </html>
