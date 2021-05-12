@@ -1,0 +1,62 @@
+/*Style generaux */
+
+body, html {
+	padding: 0;
+	margin: 0;
+}
+
+a a:hover {
+	text-decoration: none;
+}
+
+.container-fluid{
+	padding:0;
+}
+
+/* vert foncé: #615F4D;
+vert clair:#ADA555;
+beige: #E6E2BC;
+jaune:#E0D76E;
+kaki:#615D2F; */
+
+/*header*/
+.header{
+	background-color: #615F4D;
+	height:70px;
+	line-height:70px;
+
+}
+
+.logo{
+	float: left;
+	color:white;
+	letter-spacing:2px;
+	text-transform:uppercase;
+	font-weight: bold;
+}
+
+.logo:hover{
+	color:#ADA555;
+}
+
+.menu{
+	float:right;
+
+}
+
+.menu a {
+	color: white;
+	margin-right: 20px;
+}
+
+.menu a:hover {
+	color: #ADA555;
+}
+
+
+/*banniere*/
+
+.jumbotron-fluid{
+	background-color: #E6E2BC;
+	text-align: center;
+}
