@@ -60,3 +60,32 @@ kaki:#615D2F; */
 	background-color: #E6E2BC;
 	text-align: center;
 }
+
+
+/*contenu de la page*/
+iframe{
+	float:left;
+	margin-right: 50px;
+}
+
+.ateliers{
+	margin-top: 50px;
+	width:100%;
+}
+
+.tableau{
+	background-color: #E6E2BC;
+	margin-top: 150px;
+	padding-top:50px;
+	padding-bottom:50px;
+	width:100%;
+}
+
+.tableau h2{
+	text-align: center;
+}
+
+.btnTable{
+	display:block;
+	float: right;
+}
