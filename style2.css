@@ -24,7 +24,6 @@ kaki:#615D2F; */
 	background-color: #615F4D;
 	height:70px;
 	line-height:70px;
-
 }
 
 .logo{
@@ -77,7 +76,7 @@ iframe{
 	background-color: #E6E2BC;
 	margin-top: 150px;
 	padding-top:50px;
-	padding-bottom:50px;
+	padding-bottom:100px;
 	width:100%;
 }
 
@@ -88,4 +87,24 @@ iframe{
 .btnTable{
 	display:block;
 	float: right;
+
 }
+
+.event{
+	position: absolute;
+	width:600px;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0 15px 50px rgba(0, 0, 0, .2);
+
+}
+
+.event h3{
+	text-align: center;
+}
+
+.festival{
+	display:flex;
+	float:right;
+}
+
