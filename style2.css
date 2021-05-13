@@ -80,21 +80,13 @@ iframe{
 	width:100%;
 }
 
-.tableau h2{
-	text-align: center;
-}
-
-.btnTable{
-	display:block;
-	float: right;
+.table button {
+	float:right;
 
 }
 
 .event{
-	position: absolute;
-	width:600px;
 	padding: 30px;
-	border-radius: 10px;
 	box-shadow: 0 15px 50px rgba(0, 0, 0, .2);
 
 }
@@ -103,8 +95,25 @@ iframe{
 	text-align: center;
 }
 
-.festival{
-	display:flex;
-	float:right;
+.img-fluid{
+	text-align: center;
+}
+
+/*footer*/
+.footer{
+	background-color: #615F4D;
+}
+
+.footer p{
+	text-align: center;
+	padding-top: 20px;
+	color:white;
+}
+
+.iconesFooter{
+	padding-top: 20px;
+	color:white;
+	margin:auto 0;
+
 }
 
