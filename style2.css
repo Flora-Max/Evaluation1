@@ -13,6 +13,7 @@ a a:hover {
 	padding:0;
 }
 
+
 /* vert foncé: #615F4D;
 vert clair:#ADA555;
 beige: #E6E2BC;
@@ -22,26 +23,24 @@ kaki:#615D2F; */
 /*header*/
 .header{
 	background-color: #615F4D;
-	height:70px;
 	line-height:70px;
+	width:100%;
 }
 
+
 .logo{
-	float: left;
 	color:white;
 	letter-spacing:2px;
 	text-transform:uppercase;
 	font-weight: bold;
 }
 
+
 .logo:hover{
 	color:#ADA555;
 }
 
-.menu{
-	float:right;
 
-}
 
 .menu a {
 	color: white;
@@ -80,28 +79,15 @@ iframe{
 	width:100%;
 }
 
-.table button {
-	float:right;
-
-}
 
 .modal-body{
 	padding-left: 10px;
-}
-
-.modal-footer p{
-	text-align: center;
-
 }
 
 .event{
 	padding: 30px;
 	box-shadow: 0 15px 50px rgba(0, 0, 0, .2);
 
-}
-
-.event h3{
-	text-align: center;
 }
 
 .ImgClimfa{
@@ -114,7 +100,6 @@ iframe{
 }
 
 .footer p{
-	text-align: center;
 	padding-top: 20px;
 	color:white;
 }
@@ -126,6 +111,5 @@ iframe{
 	padding-top: 20px;
 	color:white;
 	margin:auto 0;
-
 }
 
