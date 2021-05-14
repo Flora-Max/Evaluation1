@@ -37,13 +37,11 @@ kaki:#615D2F; */
 /*header*/
 .header{
 	background-color: #615F4D;
-	height:70px;
-	line-height:70px;
-
+	line-height:50px;
+	width:100%;
 }
 
 .logo{
-	float: left;
 	color:white;
 	letter-spacing:2px;
 	text-transform:uppercase;
@@ -54,10 +52,6 @@ kaki:#615D2F; */
 	color:#ADA555;
 }
 
-.menu{
-	float:right;
-
-}
 
 .menu a {
 	color: white;
@@ -91,12 +85,11 @@ kaki:#615D2F; */
 	position:absolute;
 	top:50%;
 	width:100%;
-	text-align:center;
 }
 
 .inner-banner h1 {
 	color:white;
-	text-shadow: 1px 1px 20px white;
+	text-shadow: 1px 1px 20px white;	
 }
 
 .inner-banner button{
@@ -105,20 +98,16 @@ kaki:#615D2F; */
 
 
 
-/*about*/
+/*a propos*/
 #apropos{
 	padding-top: 5%;
-	text-align: center;
-	
 }
 
 
 .card{
 	margin-bottom:10px;
 	margin-top:5%;
-	text-align:center;
-	box-shadow: 1px 1px 20px black;
-	
+	box-shadow: 1px 1px 20px black;	
 }
 
 
@@ -133,25 +122,19 @@ kaki:#615D2F; */
 	width:100%;
 }
 
-#portfolio{
-	text-align: center;
-}
-
-
-
-
 
 /*footer contact*/
 .footer{
 	background-color: #615F4D;
+	padding-bottom: 0;
 }
 
 #contact{
-	text-align: center;
 	padding-top: 50px;
 	display:block;
 	margin: 0 auto;
 }
+
 
 form{
 	margin-top: 40px;
