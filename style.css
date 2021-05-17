@@ -87,13 +87,28 @@ kaki:#615D2F; */
 	width:100%;
 }
 
-.inner-banner h1 {
+
+
+.inner-banner h1 { 
 	color:white;
 	text-shadow: 1px 1px 20px white;	
 }
 
+
 .inner-banner button{
 	margin-top: 50px;
+}
+
+@media screen and (max-width:700px) {  
+.inner-banner button{
+	visibility: hidden;
+	}
+}
+
+@media screen and (max-width:700px) {
+	.inner-banner h1{
+		visibility: hidden;
+	}
 }
 
 
@@ -143,6 +158,6 @@ form{
 
 footer p {
 	color: white;
-	padding:20px;
+	padding:5%;
 	text-align: center;
 }
